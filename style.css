@@ -433,7 +433,47 @@ footer p {
   text-align: center;
 }
 
-body {
-    background-color: #f1f3e0; /* Replace this with the color you want */
+/* PROFILE SECTION */
+#profile {
+    display: flex;
+    justify-content: space-around; /* Evenly spaces the picture and text */
+    align-items: center; /* Vertically centers the content */
+    gap: 5rem;
+    height: 80vh;
+  }
+  
+  .section__pic-container img {
+    max-width: 100%; /* Ensures the image fits within its container */
+    border-radius: 50%; /* Makes the image round */
+  }
+  
+  /* ABOUT SECTION */
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the content vertically */
+    gap: 4rem;
+    padding: 4rem 0;
+  }
+  
+  .about-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .details-container {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(163, 163, 163);
+    text-align: center;
+    max-width: 20rem;
+  }
+  
+  .about-pic {
+    max-width: 100%; /* Ensures the image fits within the container */
+    border-radius: 2rem;
   }
   
