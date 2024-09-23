@@ -9,6 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f1f3e0;
+  color: #062016;
 }
 
 html {
@@ -430,3 +432,8 @@ footer {
 footer p {
   text-align: center;
 }
+
+body {
+    background-color: #f1f3e0; /* Replace this with the color you want */
+  }
+  
